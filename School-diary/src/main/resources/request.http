@@ -1,0 +1,29 @@
+POST localhost:8080/parents
+Content-Type: application/json
+
+{
+   "profile": "fsadfsdaf"
+}
+
+########
+POST localhost:8080/teachers
+Content-Type: application/json
+
+{
+  "firstName": "dsfasfd",
+  "profile": "fsadfsdaf",
+  "lastName": "dsfsdafsdaf"
+}
+
+#####
+POST localhost:8080/classes?teacher-id=2
+Content-Type: application/json
+
+{
+  "classLetter": "fsadfsdaf"
+}
+
+###
+DELETE localhost:8080/classes/1
+
+
